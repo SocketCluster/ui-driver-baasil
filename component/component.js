@@ -1,6 +1,7 @@
 /* v----- Do not change anything between here
  *       (the DRIVERNAME placeholder will be automatically replaced during build) */
 define('ui/components/machine/driver-%%DRIVERNAME%%/component', ['exports', 'ember', 'ui/mixins/driver'], function (exports, _ember, _uiMixinsDriver) {
+  "use strict";
 
   exports['default'] = _ember['default'].Component.extend(_uiMixinsDriver['default'], {
     driverName: '%%DRIVERNAME%%',
